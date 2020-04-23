@@ -1,0 +1,11 @@
+version: 0.2
+phases:
+  build:
+    commands:
+      - echo "buuild-ssdtarted-1"
+      - ls
+      - pwd
+      - composer install
+artifacts:
+  files:
+    - '**/*'
