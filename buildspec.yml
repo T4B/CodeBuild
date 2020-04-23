@@ -6,6 +6,7 @@ phases:
       - ls
       - pwd
       - composer install
+      - ls
 artifacts:
   files:
     - '**/*'
